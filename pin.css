@@ -1,0 +1,60 @@
+.top{
+    height: 100px;
+    background-color: rgb(35, 138, 133);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.back{
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    background-color: rgb(13, 66, 63) ;
+}
+.lables{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    /* margin-top: 100px; */
+    margin-left: 100px;
+}
+pre{
+    color: aliceblue;
+    font-size: 20px;
+}
+input{
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.pic{
+   
+    height: 400px;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 100px;
+    border: 2px solid black;
+
+    position:relative;
+}
+ .back .pic #ig{
+   
+   height:auto;
+   width:auto;
+}
+.Changes{
+    height: 40px;
+    width: 150px;
+    margin-top: 30px;
+    margin-left: 250px;
+    background-color: rgb(35, 138, 133);
+    font-weight: bolder;
+}

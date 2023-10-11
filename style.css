@@ -1,0 +1,67 @@
+
+.welcome{
+    display: flex;
+    
+    align-items: center;
+    background-color: rgb(61, 154, 157);
+    height: 100px;
+    border: 3px solid rgb(22, 74, 75);
+  
+}
+.pic_bank{
+    height: 60px;
+    width: 120px;
+    background-color: antiquewhite;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+.img{
+    height: 200px;
+}
+.welcome_text{
+  text-transform:uppercase;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size:40px;
+    margin-left: 200px;
+}
+.back{
+    
+    display: flex;
+    height: 500px;
+    background-color: rgb(112, 240, 244);
+    border:  3px solid rgb(22, 74, 75) ;
+    
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 500px;
+    font-size: 30px;
+  
+}
+button{
+     height: 80px;
+}
+.BT{
+   
+    margin-left: 40px;
+    background-color: rgb(61, 154, 157);
+    color:rgb(255, 255, 255) ;
+   line-height: 70px;
+    transition: all;
+    border-radius: 50px;
+    font-size: 20px;
+    
+}
+.BT:hover{
+line-height: 80px;
+border: 3px solid white;
+}
+.pic{
+    margin-left: 150px;
+    display: flex;
+}

@@ -1,0 +1,62 @@
+.top{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(12, 62, 84);
+}
+p{
+    font-size: 40px;
+    color: white;
+    font-weight: bolder;
+}
+.back{
+   display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    background-color: rgb(19, 180, 192);
+    height: 500px;
+    
+}
+.lables{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+   
+}
+.info{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+input{
+    border:2px solid darkslategray;
+    border-radius: 10px;
+    width: 200px;
+}
+pre{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.Withdraw{
+    height: 40px;
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 250px;
+    background-color: rgb(12, 62, 84);
+    font-weight: bolder;
+    color: beige;
+    font-size: 20px;
+}
+.pic{
+    height:400px;
+    width: 400px;
+    background-image: url("/Money.webp");
+    background-size: cover;
+    margin-top: 50px;
+    margin-left: 200px;
+    border-radius: 30px;
+    border: 3px solid rgb(12, 62, 84);
+}
